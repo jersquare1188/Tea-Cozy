@@ -29,6 +29,11 @@
         justify-content: flex-end;
         align-items: center;
     }
+    .top-nav a {
+        color: seashell;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
     .top-banner-sect {
         display: flex;
         justify-content: center;
@@ -48,4 +53,75 @@
         width: 100%;
         color: white;
         background-color: black;
+    }
+    .tea-of-month-sect {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .tom-sect-content {
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tom-sect-fiveimg {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .tom-sect-fiveimg img {
+        width: 300px;
+        height: 200px;
+    }
+    .img-w-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .location-sect {
+        background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-size: 87%;
+        height: 500px;
+        width: 100%;
+    }
+    .loc-three-set {
+        display: flex;
+        justify-content: space-around;
+    }
+    .loc-downtown {
+        background-color: black;
+        opacity: 1;
+        margin: 15px 20px 0px 0px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .loc-east-b {
+        background-color: black;
+        opacity: 1;
+        margin: 15px 20px 0px 20px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .loc-oakdale {
+        background-color: black;
+        opacity: 1;
+        margin: 15px 0px 0px 20px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
